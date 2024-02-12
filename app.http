@@ -1,0 +1,19 @@
+POST http://localhost:5000/users/
+Content-Type: application/json
+
+{    
+    "username": "garvith0607",
+    "password": "garvith@2023",
+    "gender":"male",
+    "location":"hyderabad"
+}
+
+###
+
+POST http://localhost:5000/login/
+Content-Type: application/json
+
+{    
+    "username": "garvith0607",
+    "password": "garvith@2023"
+}
